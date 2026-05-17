@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Avinash Sahani - B.Tech CSE Student, Full Stack Developer, App Developer & Tech Innovator. Building premium digital experiences with passion and precision.">
+  <meta name="keywords" content="Avinash Sahani, web developer, app developer, B.Tech CSE, portfolio, full stack developer, Flutter, React, Firebase">
+  <meta name="author" content="Avinash Sahani">
+  <meta property="og:title" content="Avinash Sahani | Full Stack Developer & App Developer">
+  <meta property="og:description" content="B.Tech CSE Student passionate about building premium web & mobile applications.">
+  <title>Avinash Sahani | Full Stack Developer & App Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body class="loading">
+
+<!-- Custom Cursor -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<!-- Scroll Progress -->
+<div class="scroll-progress"></div>
+
+<!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loader-logo">AS.</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-text">Initializing Portfolio...</div>
+</div>
+
+<!-- Particles Background -->
+<div id="particles-js"></div>
+
+<!-- Page Transition -->
+<div class="page-transition"></div>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-logo">AS.</a>
+  <div class="nav-links">
+    <a href="index.html" class="active-page">Home</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/projects.html">Projects</a>
+    <a href="pages/skills.html">Skills</a>
+    <a href="pages/services.html">Services</a>
+    <a href="pages/blog.html">Blog</a>
+    <a href="pages/contact.html" class="nav-cta">Contact Me</a>
+  </div>
+  <button class="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ============ HERO SECTION ============ -->
+<section class="hero-section" id="home">
+  <div class="hero-container">
+    <!-- Content -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Available for Internships & Projects
+      </div>
+
+      <h1 class="hero-name">
+        <span class="first">Hello, I'm</span>
+        <span class="last">Avinash Sahani</span>
+      </h1>
+
+      <div class="hero-typed-wrap">
+        <span class="hero-typed-prefix">&gt;_</span>
+        <span id="typed-text"></span>
+        <span class="typed-cursor" style="color: var(--accent); font-weight:300; animation: blink 1s infinite;">|</span>
+      </div>
+
+      <p class="hero-desc">
+        A passionate B.Tech Computer Science Engineering student who transforms ideas into elegant digital solutions. Specialized in full-stack web development, mobile app development, and creating seamless user experiences that leave lasting impressions.
+      </p>
+
+      <!-- Hero Stats -->
+      <div class="hero-stats reveal">
+        <div class="hero-stat">
+          <div class="hero-stat-num">15+</div>
+          <div class="hero-stat-label">Projects</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">1000+</div>
+          <div class="hero-stat-label">Hours Coded</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">10+</div>
+          <div class="hero-stat-label">Technologies</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">5+</div>
+          <div class="hero-stat-label">Certifications</div>
+        </div>
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="hero-btns">
+        <a href="pages/projects.html" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> View My Work
+        </a>
+        <a href="pages/contact.html" class="btn btn-secondary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="#" class="btn btn-ghost" download>
+          <i class="fas fa-download"></i> Resume
+        </a>
+      </div>
+
+      <!-- Social Links -->
+      <div class="hero-social">
+        <span class="hero-social-label">Find Me On</span>
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:avinash.sahani@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="hero-image-wrap">
+      <div class="hero-img-outer">
+        <div class="hero-img-ring"></div>
+        <div class="hero-img-ring2"></div>
+        <div class="hero-img-circle">
+          <span class="hero-initials">AS</span>
+        </div>
+        <!-- Float Badges -->
+        <div class="hero-float-badge b1">
+          <i class="fab fa-flutter" style="color:#54c5f8;"></i>
+          <span>Flutter Dev</span>
+        </div>
+        <div class="hero-float-badge b2">
+          <i class="fas fa-fire" style="color:#ff9800;"></i>
+          <span>Firebase</span>
+        </div>
+        <div class="hero-float-badge b3">
+          <i class="fab fa-react" style="color:#61dafb;"></i>
+          <span>React</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Hint -->
+  <div class="hero-scroll-hint">
+    <div class="scroll-mouse"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- ============ ABOUT PREVIEW ============ -->
+<section class="about-section" id="about">
+  <div class="section-container">
+    <div class="about-grid">
+      <div class="about-image-col reveal-left">
+        <div class="about-img-frame">
+          <div class="about-deco-1"></div>
+          <div class="about-deco-2"></div>
+          <div class="about-img-main">
+            <span class="about-img-icon">👨‍💻</span>
+          </div>
+          <div class="about-exp-badge">
+            <div class="about-exp-num">3+</div>
+            <div class="about-exp-label">Years of<br>Passion</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content-col reveal-right">
+        <div class="section-tag"><i class="fas fa-user"></i> About Me</div>
+        <h2 class="section-heading">Crafting Digital Experiences with <span>Passion & Precision</span></h2>
+
+        <p class="about-text">
+          I'm <strong>Avinash Sahani</strong>, a driven B.Tech Computer Science Engineering student with an unwavering passion for technology and innovation. My journey in the world of programming began with a deep curiosity about how digital systems are built, and it has since evolved into a dedicated pursuit of excellence in software development.
+        </p>
+        <p class="about-text">
+          As a Full Stack Developer and App Developer, I specialize in building responsive web applications and cross-platform mobile apps that not only function flawlessly but also deliver exceptional user experiences. I believe that great software is a perfect marriage of technical precision and creative design thinking.
+        </p>
+        <p class="about-text">
+          My toolkit spans across modern web technologies including HTML5, CSS3, JavaScript, and I'm continuously expanding my expertise in frameworks and platforms like Flutter, Firebase, React, and Python. Every project I undertake is an opportunity to learn, grow, and push the boundaries of what's possible.
+        </p>
+        <p class="about-text">
+          Beyond coding, I'm a lifelong learner who stays updated with the latest trends in technology, contributes to open-source communities, and aspires to work at the intersection of innovation and impact. I'm actively seeking internship opportunities where I can apply my skills, learn from industry professionals, and contribute meaningful solutions to real-world challenges.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+              <div class="highlight-label">Education</div>
+              <div class="highlight-val">B.Tech CSE</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="highlight-label">Location</div>
+              <div class="highlight-val">India</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i class="fas fa-code"></i></div>
+            <div>
+              <div class="highlight-label">Focus</div>
+              <div class="highlight-val">Web & App Dev</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i class="fas fa-briefcase"></i></div>
+            <div>
+              <div class="highlight-label">Status</div>
+              <div class="highlight-val">Seeking Internship</div>
+            </div>
+          </div>
+        </div>
+
+        <a href="pages/about.html" class="btn btn-primary" style="width:fit-content;">
+          <i class="fas fa-arrow-right"></i> Read Full Story
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAL STORY ============ -->
+<section class="story-section" id="story">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-book-open"></i> My Journey</div>
+      <h2 class="section-heading" style="margin:0 auto 16px;">The Story Behind the <span>Developer</span></h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="story-content reveal">
+      <p class="story-para big">
+        "Every great developer you know got there by solving problems they were unqualified to solve, until they were." — This quote perfectly captures my journey into the world of technology and programming.
+      </p>
+
+      <p class="story-para">
+        My tryst with technology began during my school days when I first encountered a computer in our school lab. What started as simple curiosity — fascination with how a machine could perform millions of calculations in a blink — quickly transformed into a burning passion. I remember spending hours after school just exploring, experimenting, and trying to understand the logic behind every program and application.
+      </p>
+
+      <p class="story-para highlighted">
+        "The first time I wrote a program that actually worked — a simple calculator in C — I felt an indescribable sense of accomplishment. That moment was my turning point. I knew this was what I wanted to do for the rest of my life."
+      </p>
+
+      <p class="story-para">
+        When I enrolled in B.Tech Computer Science Engineering, it was not just a career choice — it was the fulfillment of a dream. The structured learning environment provided me with the theoretical foundation I needed, but it was my relentless self-study, online courses, and personal projects that truly shaped my skills. I dove deep into web development, spending countless nights building websites, debugging code, and learning from every failure.
+      </p>
+
+      <p class="story-para">
+        The transition from web to mobile development happened organically. I discovered Flutter — Google's open-source UI toolkit — and was immediately captivated by the ability to create beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Mastering Flutter alongside Firebase opened up an entirely new dimension of what I could build and create.
+      </p>
+
+      <p class="story-para">
+        Over the years, I've developed a systematic approach to learning. I believe in the philosophy of "build to learn" — every concept I study gets immediately applied in a practical project. This hands-on methodology has helped me absorb knowledge faster and retain it more effectively. From simple HTML pages to complex full-stack applications with database integrations, each project has added another layer to my expertise.
+      </p>
+
+      <p class="story-para">
+        One of the most transformative experiences was building my first real-world application — a community platform that connected students in my college. Seeing people actually use something I had built, watching it solve real problems in people's lives, was an experience that confirmed my purpose. Technology, when built with empathy and intention, has the power to make people's lives genuinely better.
+      </p>
+
+      <p class="story-para">
+        Today, I stand at an exciting juncture in my journey — armed with strong technical skills, a portfolio of diverse projects, and an insatiable hunger to keep learning and growing. My goal is to channel this passion into a professional career where I can build products that scale, create impact, and push the boundaries of what's possible. I'm not just looking for a job; I'm looking for a platform to contribute meaningfully to the ever-evolving world of technology.
+      </p>
+
+      <p class="story-para big">
+        The journey has just begun, and the best chapters are yet to be written. I invite you to be a part of this story.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISION & MISSION ============ -->
+<section class="vision-section" id="vision">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-bullseye"></i> Vision & Mission</div>
+      <h2 class="section-heading">Driving Purpose, <span>Delivering Impact</span></h2>
+      <p class="section-sub" style="margin: 0 auto 60px;">My core philosophy and driving principles that guide every line of code I write and every product I build.</p>
+    </div>
+
+    <div class="vision-grid reveal">
+      <div class="vision-card vision">
+        <div class="vision-card-icon"><i class="fas fa-eye"></i></div>
+        <div class="vision-card-title">My Vision</div>
+        <div class="vision-card-text">To become a world-class software engineer who builds technology that solves real problems at scale. I envision myself at the forefront of innovation — creating products that are not only technically superior but also deeply human-centered. My long-term vision is to found or contribute to a tech company that positively impacts millions of lives, making technology accessible, intuitive, and transformative for everyone, regardless of their background or technical proficiency.</div>
+      </div>
+      <div class="vision-card mission">
+        <div class="vision-card-icon"><i class="fas fa-rocket"></i></div>
+        <div class="vision-card-title">My Mission</div>
+        <div class="vision-card-text">To master the craft of software development through continuous learning, disciplined practice, and real-world application. My mission is to build exceptional web and mobile applications that deliver genuine value, mentor upcoming developers, contribute to open-source projects, and constantly push my own technical and creative boundaries. I am committed to writing clean, efficient, and scalable code that stands the test of time and serves users with excellence.</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px;" class="reveal">
+      <div style="padding:28px;background:var(--light2);border-radius:var(--radius-lg);border:1.5px solid rgba(79,142,247,0.12);text-align:center;">
+        <div style="font-size:2rem;margin-bottom:12px;">🎯</div>
+        <div style="font-family:var(--font-display);font-weight:700;margin-bottom:8px;color:var(--text-main);">Goal-Oriented</div>
+        <div style="font-size:0.87rem;color:var(--text-sub);">Every line of code serves a clear purpose and drives toward meaningful outcomes.</div>
+      </div>
+      <div style="padding:28px;background:var(--light2);border-radius:var(--radius-lg);border:1.5px solid rgba(79,142,247,0.12);text-align:center;">
+        <div style="font-size:2rem;margin-bottom:12px;">💡</div>
+        <div style="font-family:var(--font-display);font-weight:700;margin-bottom:8px;color:var(--text-main);">Innovation First</div>
+        <div style="font-size:0.87rem;color:var(--text-sub);">Constantly exploring new technologies, patterns, and approaches to solve problems creatively.</div>
+      </div>
+      <div style="padding:28px;background:var(--light2);border-radius:var(--radius-lg);border:1.5px solid rgba(79,142,247,0.12);text-align:center;">
+        <div style="font-size:2rem;margin-bottom:12px;">🤝</div>
+        <div style="font-family:var(--font-display);font-weight:700;margin-bottom:8px;color:var(--text-main);">User-Centered</div>
+        <div style="font-size:0.87rem;color:var(--text-sub);">Building with empathy, ensuring every product serves its users with clarity and delight.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE ME ============ -->
+<section class="why-section" id="why">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-star"></i> Why Choose Me</div>
+      <h2 class="section-heading">What Makes Me <span>Stand Out</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Six compelling reasons why collaborating with me delivers exceptional results and lasting value.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-card-num">01</div>
+        <div class="why-icon"><i class="fas fa-code"></i></div>
+        <h3 class="why-title">Clean, Scalable Code</h3>
+        <p class="why-text">I write modular, well-documented code following industry best practices. My code is built to be maintainable, extensible, and efficient — not just for today, but for the future too.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-num">02</div>
+        <div class="why-icon"><i class="fas fa-bolt"></i></div>
+        <h3 class="why-title">Fast Delivery</h3>
+        <p class="why-text">I understand the value of time. I work with structured timelines, clear milestones, and consistent communication to ensure projects are delivered on schedule without compromising quality.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-num">03</div>
+        <div class="why-icon"><i class="fas fa-palette"></i></div>
+        <h3 class="why-title">Design Sensibility</h3>
+        <p class="why-text">Great development isn't just about code — it's about creating beautiful experiences. I bring a strong aesthetic sense to every project, ensuring interfaces are intuitive, modern, and visually compelling.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-num">04</div>
+        <div class="why-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3 class="why-title">Cross-Platform Expertise</h3>
+        <p class="why-text">From responsive web apps to native mobile applications using Flutter, I build solutions that work beautifully across all devices and platforms, maximizing reach and user satisfaction.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-num">05</div>
+        <div class="why-icon"><i class="fas fa-brain"></i></div>
+        <h3 class="why-title">Continuous Learning</h3>
+        <p class="why-text">Technology evolves rapidly, and so do I. I'm always upskilling, exploring emerging technologies, and applying the latest frameworks and tools to keep my work at the cutting edge of the industry.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-card-num">06</div>
+        <div class="why-icon"><i class="fas fa-handshake"></i></div>
+        <h3 class="why-title">Collaborative Spirit</h3>
+        <p class="why-text">I thrive in team environments. I communicate clearly, take feedback constructively, and work collaboratively to achieve shared goals — making the development process smooth and enjoyable for everyone involved.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS SHOWCASE ============ -->
+<section class="skills-section" id="skills">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-chart-bar"></i> Skills</div>
+      <h2 class="section-heading">Technical <span>Proficiency</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Constantly honing my craft across a diverse spectrum of programming languages, frameworks, and tools.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-html5" style="color:#e34f26;"></i> HTML5</div>
+          <div class="skill-pct">92%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="92"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-css3-alt" style="color:#1572b6;"></i> CSS3</div>
+          <div class="skill-pct">88%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-js-square" style="color:#f7df1e;"></i> JavaScript</div>
+          <div class="skill-pct">82%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fas fa-mobile-screen-button" style="color:#54c5f8;"></i> Flutter</div>
+          <div class="skill-pct">80%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fas fa-fire" style="color:#ff9800;"></i> Firebase</div>
+          <div class="skill-pct">78%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-python" style="color:#3776ab;"></i> Python</div>
+          <div class="skill-pct">75%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fas fa-c" style="color:#a8b9cc;"></i> C Language</div>
+          <div class="skill-pct">85%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fas fa-code" style="color:#9c33a8;"></i> C++</div>
+          <div class="skill-pct">80%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-git-alt" style="color:#f05032;"></i> Git</div>
+          <div class="skill-pct">83%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="83"></div></div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="skill-header">
+          <div class="skill-name"><i class="fab fa-github" style="color:#333;"></i> GitHub</div>
+          <div class="skill-pct">85%</div>
+        </div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+    </div>
+
+    <div style="margin-top:48px;text-align:center;" class="reveal">
+      <a href="pages/skills.html" class="btn btn-primary"><i class="fas fa-layer-group"></i> See Full Skill Breakdown</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+<section class="projects-section" id="projects">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-folder-open"></i> Portfolio</div>
+      <h2 class="section-heading">Featured <span>Projects</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">A curated collection of my best work — from web applications to mobile apps, each project represents a unique challenge solved with creativity and precision.</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card" data-category="web">
+        <div class="project-img">
+          🛒
+          <div class="project-badge">Web App</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Live</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">ShopEase E-Commerce Platform</h3>
+          <p class="project-desc">A fully functional e-commerce platform with product management, cart, checkout, payment integration, and an admin dashboard for inventory control.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Stripe</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-category="app">
+        <div class="project-img">
+          📱
+          <div class="project-badge">Flutter App</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Demo</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">EduConnect Student App</h3>
+          <p class="project-desc">A cross-platform Flutter application connecting students with study resources, peer collaboration tools, and real-time notifications powered by Firebase.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Dart</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Cloud Firestore</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-category="web">
+        <div class="project-img">
+          📊
+          <div class="project-badge">Dashboard</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Live</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Analytics Dashboard</h3>
+          <p class="project-desc">A modern data visualization dashboard with interactive charts, real-time data updates, customizable widgets, and comprehensive reporting features.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">Chart.js</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">REST API</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card" data-category="app">
+        <div class="project-img">
+          💪
+          <div class="project-badge">Health App</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Demo</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">FitTrack Fitness App</h3>
+          <p class="project-desc">A comprehensive fitness tracking application built with Flutter featuring workout logging, progress visualization, calorie tracking, and personalized fitness plans.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Firebase Auth</span>
+            <span class="tech-tag">Hive DB</span>
+            <span class="tech-tag">Dart</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card" data-category="web">
+        <div class="project-img">
+          🎵
+          <div class="project-badge">Web App</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Live</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">MelodyHub Music Player</h3>
+          <p class="project-desc">A Spotify-inspired web music player with playlist management, audio visualization, search functionality, and a sleek modern UI with dark/light themes.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML/CSS/JS</span>
+            <span class="tech-tag">Web Audio API</span>
+            <span class="tech-tag">Spotify API</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card" data-category="python">
+        <div class="project-img">
+          🤖
+          <div class="project-badge">AI/ML</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Demo</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Smart Chatbot Assistant</h3>
+          <p class="project-desc">An intelligent chatbot powered by NLP and machine learning, capable of handling customer queries, providing personalized recommendations, and learning from interactions.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">NLTK</span>
+            <span class="tech-tag">Flask</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="project-card" data-category="web">
+        <div class="project-img">
+          📰
+          <div class="project-badge">Blog Platform</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Live</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">TechBlog CMS Platform</h3>
+          <p class="project-desc">A full-featured content management system with rich text editing, user authentication, comment system, SEO optimization, and a responsive reading experience.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Quill.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 8 -->
+      <div class="project-card" data-category="app">
+        <div class="project-img">
+          📍
+          <div class="project-badge">Location App</div>
+          <div class="project-overlay">
+            <a href="#" class="btn btn-primary" style="font-size:0.8rem;padding:10px 18px;"><i class="fas fa-eye"></i> Demo</a>
+            <a href="#" class="btn btn-secondary" style="font-size:0.8rem;padding:10px 18px;"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">LocalGuide City Explorer</h3>
+          <p class="project-desc">A Flutter-based city exploration app with real-time maps, place discovery, user reviews, AR navigation support, and curated local recommendations.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Google Maps</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Geolocator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="pages/projects.html" class="btn btn-primary"><i class="fas fa-grid-2"></i> View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LIVE STATISTICS ============ -->
+<section class="stats-section" id="stats">
+  <div class="section-container">
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-icon">🚀</div>
+        <div class="stat-num"><span data-target="15" data-suffix="+">0+</span></div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon">⏰</div>
+        <div class="stat-num"><span data-target="1200" data-suffix="+">0+</span></div>
+        <div class="stat-label">Hours of Coding</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon">🛠️</div>
+        <div class="stat-num"><span data-target="12" data-suffix="+">0+</span></div>
+        <div class="stat-label">Technologies Learned</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon">🧩</div>
+        <div class="stat-num"><span data-target="350" data-suffix="+">0+</span></div>
+        <div class="stat-label">Problems Solved</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CODING JOURNEY TIMELINE ============ -->
+<section class="timeline-section" id="timeline">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-timeline"></i> Journey</div>
+      <h2 class="section-heading">My Coding <span>Timeline</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">A chronological map of milestones, learnings, and achievements that define my path as a developer.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 — The Spark</div>
+        <h3 class="timeline-title">First Encounter with Programming</h3>
+        <p class="timeline-text">Wrote my very first program in C during computer science class. A simple "Hello World" program that sparked an unquenchable curiosity about how software works.</p>
+        <div class="timeline-card">🎯 Milestone: Understood fundamental programming concepts — variables, loops, conditions, and functions.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2020 — Web Discovery</div>
+        <h3 class="timeline-title">Diving into Web Development</h3>
+        <p class="timeline-text">Discovered HTML and CSS through online tutorials. Built my very first static website — a personal page about my hobbies. The thrill of seeing something live on a browser was intoxicating.</p>
+        <div class="timeline-card">🌐 Built: 5+ static websites including a personal homepage, a recipe blog, and a digital resume.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 — B.Tech Begins</div>
+        <h3 class="timeline-title">Enrolled in B.Tech CSE</h3>
+        <p class="timeline-text">Began formal Computer Science education. Excelled in data structures, algorithms, and OOP concepts. Started competitive programming on platforms like HackerRank and LeetCode. Also mastered JavaScript and began building interactive web apps.</p>
+        <div class="timeline-card">📚 Learned: JavaScript, Data Structures, Algorithms, Object-Oriented Programming, Database Management.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 — Mobile Development</div>
+        <h3 class="timeline-title">Flutter & Firebase Mastery</h3>
+        <p class="timeline-text">Discovered Flutter and fell in love with cross-platform development. Integrated Firebase for backend services. Built and published multiple mobile applications. Started learning Python for data science and automation.</p>
+        <div class="timeline-card">📱 Published: EduConnect app, FitTrack fitness tracker, and LocalGuide city explorer on GitHub.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 — Full Stack Journey</div>
+        <h3 class="timeline-title">Full Stack Development & Open Source</h3>
+        <p class="timeline-text">Expanded into full-stack development, working with APIs, databases, and server-side logic. Made first open-source contributions. Earned multiple certifications in web development and cloud computing. Completed freelance projects for local businesses.</p>
+        <div class="timeline-card">🏆 Achievements: 5+ certifications, first open-source PR merged, 3 freelance projects delivered.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2024 — Present</div>
+        <h3 class="timeline-title">Portfolio Building & Internship Preparation</h3>
+        <p class="timeline-text">Focused on building a strong portfolio of diverse projects, deepening expertise in modern frameworks, and preparing for software engineering internships at top tech companies. Actively networking, contributing to open source, and refining skills.</p>
+        <div class="timeline-card">🚀 Current: Seeking internship opportunities | Building advanced full-stack projects | Exploring AI/ML integration.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="certs-section" id="certs">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-certificate"></i> Certifications</div>
+      <h2 class="section-heading">Credentials & <span>Certifications</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Validated expertise through industry-recognized certifications that complement hands-on project experience.</p>
+    </div>
+
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fab fa-google" style="color:#4285f4;"></i></div>
+        <div>
+          <div class="cert-title">Google UX Design Certificate</div>
+          <div class="cert-issuer">Google / Coursera</div>
+          <div class="cert-date">2023</div>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fab fa-js" style="color:#f7df1e;"></i></div>
+        <div>
+          <div class="cert-title">JavaScript Algorithms & Data Structures</div>
+          <div class="cert-issuer">freeCodeCamp</div>
+          <div class="cert-date">2022</div>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fab fa-python" style="color:#3776ab;"></i></div>
+        <div>
+          <div class="cert-title">Python for Everybody Specialization</div>
+          <div class="cert-issuer">University of Michigan / Coursera</div>
+          <div class="cert-date">2023</div>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fas fa-mobile-alt" style="color:#54c5f8;"></i></div>
+        <div>
+          <div class="cert-title">Flutter & Dart — Complete Guide</div>
+          <div class="cert-issuer">Udemy</div>
+          <div class="cert-date">2022</div>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fab fa-aws" style="color:#ff9900;"></i></div>
+        <div>
+          <div class="cert-title">AWS Cloud Practitioner Essentials</div>
+          <div class="cert-issuer">Amazon Web Services</div>
+          <div class="cert-date">2024</div>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fas fa-fire" style="color:#ff9800;"></i></div>
+        <div>
+          <div class="cert-title">Firebase — Build Scalable Web Apps</div>
+          <div class="cert-issuer">Google Firebase</div>
+          <div class="cert-date">2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="achievements-section" id="achievements">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-trophy"></i> Achievements</div>
+      <h2 class="section-heading">Milestones & <span>Recognition</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Key accomplishments that mark significant points in my academic and professional development journey.</p>
+    </div>
+
+    <div class="achievements-grid">
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">🏆</span>
+        <div class="achievement-title">Hackathon Finalist</div>
+        <div class="achievement-desc">Reached the finals of a 24-hour college-level hackathon, building a healthcare app in a team of 4.</div>
+      </div>
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">⭐</span>
+        <div class="achievement-title">5-Star HackerRank</div>
+        <div class="achievement-desc">Earned 5-star rating in Problem Solving on HackerRank through consistent competitive programming practice.</div>
+      </div>
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">📱</span>
+        <div class="achievement-title">App Published</div>
+        <div class="achievement-desc">Successfully launched a Flutter mobile app with 200+ active users in the first month of release.</div>
+      </div>
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">🎓</span>
+        <div class="achievement-title">Academic Excellence</div>
+        <div class="achievement-desc">Maintained strong CGPA while simultaneously building projects, taking online courses, and freelancing.</div>
+      </div>
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">🤝</span>
+        <div class="achievement-title">Open Source Contributor</div>
+        <div class="achievement-desc">Contributed to 3+ open-source projects on GitHub with merged pull requests and community recognition.</div>
+      </div>
+      <div class="achievement-card reveal">
+        <span class="achievement-icon">🌐</span>
+        <div class="achievement-title">Freelance Success</div>
+        <div class="achievement-desc">Completed 3 paid freelance web development projects for local businesses with 100% client satisfaction.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERNSHIP GOALS ============ -->
+<section class="internship-section" id="internship">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-briefcase"></i> Career Goals</div>
+      <h2 class="section-heading">Internship <span>Aspirations</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">What I'm looking for in my next professional opportunity and the value I bring to any team.</p>
+    </div>
+
+    <div class="internship-grid">
+      <div class="internship-card reveal">
+        <div class="internship-icon"><i class="fas fa-laptop-code"></i></div>
+        <div>
+          <div class="internship-title">Full Stack Development Internship</div>
+          <div class="internship-text">Seeking opportunities to work on real-world web applications, contribute to production codebases, and learn from experienced engineers in a collaborative environment. Comfortable with frontend (HTML/CSS/JS) and backend integrations.</div>
+        </div>
+      </div>
+      <div class="internship-card reveal">
+        <div class="internship-icon"><i class="fas fa-mobile-alt"></i></div>
+        <div>
+          <div class="internship-title">Mobile App Development Role</div>
+          <div class="internship-text">Eager to apply my Flutter and Firebase expertise in a professional setting to build and ship mobile applications. I bring strong knowledge of state management, UI development, and cloud integration to mobile projects.</div>
+        </div>
+      </div>
+      <div class="internship-card reveal">
+        <div class="internship-icon"><i class="fas fa-users"></i></div>
+        <div>
+          <div class="internship-title">What I Bring to Your Team</div>
+          <div class="internship-text">Strong technical foundation, a growth mindset, team-player attitude, and relentless work ethic. I adapt quickly, communicate proactively, and am driven to deliver high-quality work that makes a real difference to the product and the team.</div>
+        </div>
+      </div>
+      <div class="internship-card reveal">
+        <div class="internship-icon"><i class="fas fa-lightbulb"></i></div>
+        <div>
+          <div class="internship-title">What I Hope to Gain</div>
+          <div class="internship-text">Practical industry experience working on scalable systems, mentorship from senior developers, exposure to best practices in software engineering, and the opportunity to build meaningful products that impact real users at scale.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FUTURE PLANS ============ -->
+<section class="future-section" id="future">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.8);"><i class="fas fa-map-signs"></i> Roadmap</div>
+      <h2 class="section-heading" style="color:white;">Future <span>Plans</span></h2>
+      <p class="section-sub" style="color:rgba(255,255,255,0.5);margin:0 auto 60px;">A strategic vision for the next few years of my professional growth and career development.</p>
+    </div>
+
+    <div class="future-grid">
+      <div class="future-card reveal">
+        <div class="future-card-year">2024 — 2025</div>
+        <div class="future-card-title">Secure Internship & Graduate</div>
+        <div class="future-card-text">Land a high-quality software engineering internship at a product company or startup. Complete B.Tech with distinction. Deepen expertise in React, Node.js, and cloud services. Build 5+ production-ready projects.</div>
+      </div>
+      <div class="future-card reveal">
+        <div class="future-card-year">2025 — 2026</div>
+        <div class="future-card-title">Junior Engineer at Tech Company</div>
+        <div class="future-card-text">Join a reputed tech company as a junior software engineer. Contribute to large-scale products, learn agile methodologies, work in cross-functional teams, and begin specializing in cloud architecture and microservices.</div>
+      </div>
+      <div class="future-card reveal">
+        <div class="future-card-year">2026 — 2028</div>
+        <div class="future-card-title">Senior Engineer & Leadership</div>
+        <div class="future-card-text">Grow into a senior engineering role, leading features and mentoring junior developers. Explore pursuing a Master's in Computer Science or an MBA in Technology Management. Begin angel investing in early-stage startups.</div>
+      </div>
+      <div class="future-card reveal">
+        <div class="future-card-year">2028+</div>
+        <div class="future-card-title">Entrepreneurship & Innovation</div>
+        <div class="future-card-text">Co-found a technology startup solving real problems in education, healthcare, or sustainability. Build a team of passionate developers, raise funding, and create a product that serves millions of users across the globe.</div>
+      </div>
+      <div class="future-card reveal">
+        <div class="future-card-year">Ongoing</div>
+        <div class="future-card-title">Community & Open Source</div>
+        <div class="future-card-text">Continuously contribute to open-source projects, write technical blogs, mentor students, speak at tech conferences, and give back to the developer community that has given me so much knowledge and inspiration.</div>
+      </div>
+      <div class="future-card reveal">
+        <div class="future-card-year">Long Term</div>
+        <div class="future-card-title">AI & Emerging Technologies</div>
+        <div class="future-card-text">Stay at the frontier of AI, blockchain, AR/VR, and quantum computing. Build AI-powered products that leverage the latest advancements to solve complex, meaningful problems and shape the future of technology.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services-section" id="services">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-concierge-bell"></i> Services</div>
+      <h2 class="section-heading">What I <span>Offer</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Professional services delivered with quality, precision, and a deep understanding of your needs and goals.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card s1 reveal">
+        <div class="service-icon"><i class="fas fa-globe"></i></div>
+        <h3 class="service-title">Web Development</h3>
+        <p class="service-text">Full-cycle web development from concept to deployment. Building responsive, performant, and SEO-optimized websites using modern HTML5, CSS3, and JavaScript. Specializing in premium UI/UX with glassmorphism, animations, and interactive elements.</p>
+        <div class="service-features">
+          <div class="service-feature"><i class="fas fa-check"></i> Responsive Design</div>
+          <div class="service-feature"><i class="fas fa-check"></i> SEO Optimization</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Firebase Integration</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Performance Optimization</div>
+        </div>
+      </div>
+      <div class="service-card s2 reveal">
+        <div class="service-icon"><i class="fas fa-mobile-screen"></i></div>
+        <h3 class="service-title">App Development</h3>
+        <p class="service-text">Cross-platform mobile application development using Flutter and Dart. Creating native-quality apps for iOS and Android from a single codebase, with beautiful UI, smooth animations, and robust backend integration through Firebase.</p>
+        <div class="service-features">
+          <div class="service-feature"><i class="fas fa-check"></i> iOS & Android</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Firebase Backend</div>
+          <div class="service-feature"><i class="fas fa-check"></i> State Management</div>
+          <div class="service-feature"><i class="fas fa-check"></i> App Store Ready</div>
+        </div>
+      </div>
+      <div class="service-card s3 reveal">
+        <div class="service-icon"><i class="fas fa-pencil-ruler"></i></div>
+        <h3 class="service-title">UI/UX Design</h3>
+        <p class="service-text">Creating user-centered design solutions that are beautiful, intuitive, and effective. From wireframing to high-fidelity prototypes, I design interfaces that prioritize usability, accessibility, and visual appeal to deliver outstanding user experiences.</p>
+        <div class="service-features">
+          <div class="service-feature"><i class="fas fa-check"></i> Wireframing</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Prototyping</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Design Systems</div>
+          <div class="service-feature"><i class="fas fa-check"></i> User Research</div>
+        </div>
+      </div>
+      <div class="service-card s4 reveal">
+        <div class="service-icon"><i class="fas fa-comments"></i></div>
+        <h3 class="service-title">Technical Consulting</h3>
+        <p class="service-text">Providing strategic technical guidance on technology stack selection, architecture decisions, and implementation strategies. Helping individuals and small businesses make informed decisions to build scalable, maintainable, and future-proof digital products.</p>
+        <div class="service-features">
+          <div class="service-feature"><i class="fas fa-check"></i> Tech Stack Advice</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Code Review</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Architecture Planning</div>
+          <div class="service-feature"><i class="fas fa-check"></i> Mentorship</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="pages/services.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECH STACK MARQUEE ============ -->
+<section class="tech-section" id="techstack">
+  <div class="section-container" style="padding-bottom:40px;">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-tools"></i> Tech Stack</div>
+      <h2 class="section-heading">Technologies I <span>Work With</span></h2>
+      <p class="section-sub" style="margin:0 auto 48px;">A comprehensive ecosystem of languages, frameworks, tools, and platforms I leverage to build amazing products.</p>
+    </div>
+  </div>
+
+  <div class="tech-marquee-wrap">
+    <div class="tech-marquee">
+      <div class="tech-pill"><i class="fab fa-html5" style="color:#e34f26;"></i> HTML5</div>
+      <div class="tech-pill"><i class="fab fa-css3-alt" style="color:#1572b6;"></i> CSS3</div>
+      <div class="tech-pill"><i class="fab fa-js-square" style="color:#f7df1e;"></i> JavaScript</div>
+      <div class="tech-pill"><i class="fab fa-python" style="color:#3776ab;"></i> Python</div>
+      <div class="tech-pill"><i class="fas fa-mobile-alt" style="color:#54c5f8;"></i> Flutter</div>
+      <div class="tech-pill"><i class="fas fa-fire" style="color:#ff9800;"></i> Firebase</div>
+      <div class="tech-pill"><i class="fab fa-git-alt" style="color:#f05032;"></i> Git</div>
+      <div class="tech-pill"><i class="fab fa-github"></i> GitHub</div>
+      <div class="tech-pill"><i class="fas fa-database" style="color:#00758f;"></i> MySQL</div>
+      <div class="tech-pill"><i class="fab fa-react" style="color:#61dafb;"></i> React</div>
+      <div class="tech-pill"><i class="fas fa-code" style="color:#9c33a8;"></i> C/C++</div>
+      <div class="tech-pill"><i class="fas fa-server" style="color:#68a063;"></i> Node.js</div>
+      <!-- Duplicate for seamless loop -->
+      <div class="tech-pill"><i class="fab fa-html5" style="color:#e34f26;"></i> HTML5</div>
+      <div class="tech-pill"><i class="fab fa-css3-alt" style="color:#1572b6;"></i> CSS3</div>
+      <div class="tech-pill"><i class="fab fa-js-square" style="color:#f7df1e;"></i> JavaScript</div>
+      <div class="tech-pill"><i class="fab fa-python" style="color:#3776ab;"></i> Python</div>
+      <div class="tech-pill"><i class="fas fa-mobile-alt" style="color:#54c5f8;"></i> Flutter</div>
+      <div class="tech-pill"><i class="fas fa-fire" style="color:#ff9800;"></i> Firebase</div>
+      <div class="tech-pill"><i class="fab fa-git-alt" style="color:#f05032;"></i> Git</div>
+      <div class="tech-pill"><i class="fab fa-github"></i> GitHub</div>
+      <div class="tech-pill"><i class="fas fa-database" style="color:#00758f;"></i> MySQL</div>
+      <div class="tech-pill"><i class="fab fa-react" style="color:#61dafb;"></i> React</div>
+      <div class="tech-pill"><i class="fas fa-code" style="color:#9c33a8;"></i> C/C++</div>
+      <div class="tech-pill"><i class="fas fa-server" style="color:#68a063;"></i> Node.js</div>
+    </div>
+  </div>
+
+  <div class="tech-marquee-wrap" style="margin-top:16px;">
+    <div class="tech-marquee tech-marquee2">
+      <div class="tech-pill"><i class="fab fa-figma" style="color:#f24e1e;"></i> Figma</div>
+      <div class="tech-pill"><i class="fab fa-docker" style="color:#2496ed;"></i> Docker</div>
+      <div class="tech-pill"><i class="fab fa-linux"></i> Linux</div>
+      <div class="tech-pill"><i class="fab fa-aws" style="color:#ff9900;"></i> AWS</div>
+      <div class="tech-pill"><i class="fas fa-cloud" style="color:#4285f4;"></i> Google Cloud</div>
+      <div class="tech-pill"><i class="fas fa-wind" style="color:#38bdf8;"></i> Tailwind CSS</div>
+      <div class="tech-pill"><i class="fas fa-bolt" style="color:#e34f26;"></i> Vite</div>
+      <div class="tech-pill"><i class="fab fa-npm" style="color:#cc3534;"></i> NPM</div>
+      <div class="tech-pill"><i class="fas fa-infinity" style="color:#0175c2;"></i> Dart</div>
+      <div class="tech-pill"><i class="fas fa-terminal"></i> VS Code</div>
+      <div class="tech-pill"><i class="fas fa-shield-alt" style="color:#339af0;"></i> Auth</div>
+      <div class="tech-pill"><i class="fas fa-project-diagram" style="color:#6c5ce7;"></i> REST API</div>
+      <!-- Duplicate -->
+      <div class="tech-pill"><i class="fab fa-figma" style="color:#f24e1e;"></i> Figma</div>
+      <div class="tech-pill"><i class="fab fa-docker" style="color:#2496ed;"></i> Docker</div>
+      <div class="tech-pill"><i class="fab fa-linux"></i> Linux</div>
+      <div class="tech-pill"><i class="fab fa-aws" style="color:#ff9900;"></i> AWS</div>
+      <div class="tech-pill"><i class="fas fa-cloud" style="color:#4285f4;"></i> Google Cloud</div>
+      <div class="tech-pill"><i class="fas fa-wind" style="color:#38bdf8;"></i> Tailwind CSS</div>
+      <div class="tech-pill"><i class="fas fa-bolt" style="color:#e34f26;"></i> Vite</div>
+      <div class="tech-pill"><i class="fab fa-npm" style="color:#cc3534;"></i> NPM</div>
+      <div class="tech-pill"><i class="fas fa-infinity" style="color:#0175c2;"></i> Dart</div>
+      <div class="tech-pill"><i class="fas fa-terminal"></i> VS Code</div>
+      <div class="tech-pill"><i class="fas fa-shield-alt" style="color:#339af0;"></i> Auth</div>
+      <div class="tech-pill"><i class="fas fa-project-diagram" style="color:#6c5ce7;"></i> REST API</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPEN SOURCE ============ -->
+<section class="opensource-section" id="opensource">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fab fa-github"></i> Open Source</div>
+      <h2 class="section-heading">Open Source <span>Contributions</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Giving back to the developer community through meaningful contributions to open-source projects.</p>
+    </div>
+
+    <div class="github-stats">
+      <div class="github-stat-card reveal">
+        <div class="github-stat-icon">⭐</div>
+        <div class="github-stat-num">47</div>
+        <div class="github-stat-label">Stars Earned</div>
+      </div>
+      <div class="github-stat-card reveal">
+        <div class="github-stat-icon">🔀</div>
+        <div class="github-stat-num">12</div>
+        <div class="github-stat-label">PRs Merged</div>
+      </div>
+      <div class="github-stat-card reveal">
+        <div class="github-stat-icon">📦</div>
+        <div class="github-stat-num">18</div>
+        <div class="github-stat-label">Repositories</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px;" class="reveal">
+      <div class="glass-card" style="padding:28px;border-radius:var(--radius-lg);">
+        <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:12px;">
+          <div>
+            <div style="font-weight:700;color:var(--text-main);margin-bottom:4px;">flutter-ui-components</div>
+            <div style="font-size:0.8rem;color:var(--text-muted);">avinashsahani / flutter-ui-components</div>
+          </div>
+          <span style="background:rgba(6,214,160,0.1);color:var(--accent3);font-size:0.72rem;padding:4px 12px;border-radius:var(--radius-full);font-family:var(--font-mono);">Public</span>
+        </div>
+        <div style="font-size:0.88rem;color:var(--text-sub);margin-bottom:16px;">A collection of reusable Flutter UI components with beautiful animations, ready to drop into any Flutter project.</div>
+        <div style="display:flex;gap:16px;font-size:0.8rem;color:var(--text-muted);">
+          <span><i class="fas fa-star" style="color:#fbbf24;"></i> 24</span>
+          <span><i class="fas fa-code-fork" style="color:var(--accent);"></i> 8</span>
+          <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;background:#54c5f8;border-radius:50%;display:inline-block;"></span> Dart</span>
+        </div>
+      </div>
+
+      <div class="glass-card" style="padding:28px;border-radius:var(--radius-lg);">
+        <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:12px;">
+          <div>
+            <div style="font-weight:700;color:var(--text-main);margin-bottom:4px;">web-animations-library</div>
+            <div style="font-size:0.8rem;color:var(--text-muted);">avinashsahani / web-animations-library</div>
+          </div>
+          <span style="background:rgba(6,214,160,0.1);color:var(--accent3);font-size:0.72rem;padding:4px 12px;border-radius:var(--radius-full);font-family:var(--font-mono);">Public</span>
+        </div>
+        <div style="font-size:0.88rem;color:var(--text-sub);margin-bottom:16px;">Pure CSS and JavaScript animation library for creating premium web experiences with glassmorphism and motion effects.</div>
+        <div style="display:flex;gap:16px;font-size:0.8rem;color:var(--text-muted);">
+          <span><i class="fas fa-star" style="color:#fbbf24;"></i> 23</span>
+          <span><i class="fas fa-code-fork" style="color:var(--accent);"></i> 7</span>
+          <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;background:#f7df1e;border-radius:50%;display:inline-block;"></span> JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:32px;" class="reveal">
+      <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View GitHub Profile</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials-section" id="testimonials">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-quote-left"></i> Testimonials</div>
+      <h2 class="section-heading">What People <span>Say</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Feedback from peers, professors, and collaborators who have experienced working with me firsthand.</p>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Avinash is an exceptionally talented developer with a rare combination of technical depth and creative design thinking. His projects consistently exceed expectations in both functionality and aesthetic quality. A truly remarkable student.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">PK</div>
+          <div>
+            <div class="testimonial-name">Prof. Pradeep Kumar</div>
+            <div class="testimonial-role">Computer Science Faculty</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Working with Avinash on our college project was an outstanding experience. He brought innovative ideas, wrote clean and well-documented code, and consistently delivered quality work ahead of schedule. Highly recommend!</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">RS</div>
+          <div>
+            <div class="testimonial-name">Rahul Sharma</div>
+            <div class="testimonial-role">Classmate & Project Partner</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Avinash built our business website in just two weeks, and the result was absolutely stunning. Professional, responsive, fast, and exactly what we envisioned. His attention to detail and communication throughout was impeccable.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">MG</div>
+          <div>
+            <div class="testimonial-name">Meera Gupta</div>
+            <div class="testimonial-role">Small Business Owner</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq-section" id="faq">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-circle-question"></i> FAQ</div>
+      <h2 class="section-heading">Frequently Asked <span>Questions</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Answers to the most common questions I get from clients, recruiters, and collaborators.</p>
+    </div>
+
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <div class="faq-question">
+          Are you currently available for internships or freelance projects?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Yes! I'm actively seeking software engineering internship opportunities for 2024-2025. I'm also open to freelance web and app development projects. Whether you're a startup, a small business, or a tech company, I'd love to discuss how I can contribute to your team.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          What types of projects do you specialize in?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          I specialize in full-stack web development (HTML/CSS/JS with Firebase), cross-platform mobile app development (Flutter/Dart), and UI/UX design. I'm particularly passionate about building products with beautiful interfaces, real-time features, and scalable backend architectures.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          How long does it typically take to build a website or app?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Timelines vary based on project complexity. A simple static website takes 3-7 days. A full-featured web application with backend integration takes 2-6 weeks. A mobile app with Firebase backend typically takes 4-8 weeks. I always provide a detailed timeline estimate before starting any project.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Do you work with teams or independently?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          Both! I work effectively as an individual freelancer for smaller projects, and I'm also an enthusiastic team player who thrives in collaborative environments. I have experience working in agile teams, using Git workflows, and contributing to shared codebases in structured team settings.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          What is your preferred tech stack for new projects?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          For web projects, I typically use HTML5/CSS3/JavaScript with Firebase as the backend. For mobile apps, Flutter + Firebase is my go-to stack. I'm also proficient with React for component-based frontends and Python for backend services. I'm flexible and always choose the best tool for the specific project requirements.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          How can I reach you for collaborations or opportunities?
+          <i class="fas fa-plus faq-q-icon"></i>
+        </div>
+        <div class="faq-answer">
+          The best way to reach me is through the Contact page on this website or by emailing me at avinash.sahani@email.com. I typically respond within 24 hours. You can also connect with me on LinkedIn, GitHub, or Instagram for a more casual introduction.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG PREVIEW ============ -->
+<section class="blog-section" id="blog">
+  <div class="section-container">
+    <div class="text-center reveal">
+      <div class="section-tag"><i class="fas fa-pen-nib"></i> Blog</div>
+      <h2 class="section-heading">Latest <span>Articles</span></h2>
+      <p class="section-sub" style="margin:0 auto 60px;">Sharing knowledge, insights, and learnings from my journey in technology and development through thoughtful technical writing.</p>
+    </div>
+
+    <div class="blog-grid">
+      <div class="blog-card reveal">
+        <div class="blog-img">
+          📱
+          <span class="blog-category">Flutter</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">March 15, 2024</div>
+          <h3 class="blog-title">Building Beautiful Flutter Animations: A Complete Guide for 2024</h3>
+          <p class="blog-excerpt">Dive deep into Flutter's animation system — from simple fades to complex physics-based interactions. Learn how to create animations that delight users.</p>
+          <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+
+      <div class="blog-card reveal">
+        <div class="blog-img">
+          🌐
+          <span class="blog-category">Web Dev</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">February 28, 2024</div>
+          <h3 class="blog-title">CSS Glassmorphism: The Ultimate Implementation Guide</h3>
+          <p class="blog-excerpt">Everything you need to know about implementing glassmorphism in CSS — from basic blur effects to complex layered compositions with browser compatibility.</p>
+          <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+
+      <div class="blog-card reveal">
+        <div class="blog-img">
+          🔥
+          <span class="blog-category">Firebase</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">January 20, 2024</div>
+          <h3 class="blog-title">Firebase Security Rules: Protecting Your Database Like a Pro</h3>
+          <p class="blog-excerpt">A practical, hands-on guide to writing Firebase security rules that protect your data without breaking your app's functionality. Real examples included.</p>
+          <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="pages/blog.html" class="btn btn-primary"><i class="fas fa-rss"></i> View All Articles</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT CTA ============ -->
+<section class="contact-cta-section">
+  <div class="section-container">
+    <div class="cta-content reveal">
+      <h2 class="cta-heading">Ready to Build Something<br><span class="grad-text">Amazing Together?</span></h2>
+      <p class="cta-sub">Whether you have a project in mind, an internship opportunity, or just want to connect — I'm always excited to meet fellow tech enthusiasts and collaborators.</p>
+      <div class="cta-btns">
+        <a href="pages/contact.html" class="btn btn-white"><i class="fas fa-paper-plane"></i> Start a Conversation</a>
+        <a href="mailto:avinash.sahani@email.com" class="btn btn-outline-white"><i class="fas fa-envelope"></i> Email Me Directly</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="newsletter-section">
+  <div class="section-container">
+    <div class="newsletter-inner reveal">
+      <div>
+        <div class="newsletter-heading">Stay in the Loop 🚀</div>
+        <p class="newsletter-sub">Subscribe to get notified about new projects, blog posts, and tech insights I share. No spam, ever — just valuable content for developers.</p>
+      </div>
+      <div>
+        <form id="newsletter-form" class="newsletter-form" onsubmit="return false;">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+          <button type="submit" class="btn" style="background:white;color:var(--text-main);font-weight:600;border-radius:var(--radius-full);padding:14px 28px;white-space:nowrap;">
+            Subscribe <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+        <div style="margin-top:12px;font-size:0.78rem;color:rgba(255,255,255,0.5);">
+          <i class="fas fa-lock"></i> Privacy guaranteed. Unsubscribe anytime.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">AS.</div>
+      <p class="footer-tagline">B.Tech CSE Student & passionate developer crafting beautiful digital experiences with code, creativity, and coffee.</p>
+      <div class="footer-social">
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:avinash.sahani@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About Me</a>
+        <a href="pages/projects.html">Projects</a>
+        <a href="pages/skills.html">Skills</a>
+        <a href="pages/services.html">Services</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer-col-title">More</div>
+      <div class="footer-links">
+        <a href="pages/blog.html">Blog</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="#" download>Resume / CV</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Get In Touch</div>
+      <div class="footer-links">
+        <a href="mailto:avinash.sahani@email.com"><i class="fas fa-envelope" style="width:14px;"></i> avinash.sahani@email.com</a>
+        <a href="#"><i class="fas fa-map-marker-alt" style="width:14px;"></i> India</a>
+        <a href="#"><i class="fab fa-whatsapp" style="width:14px;"></i> WhatsApp</a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin" style="width:14px;"></i> LinkedIn Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div>© 2024 Avinash Sahani. Crafted with ❤️ and lots of ☕</div>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/particles-config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
